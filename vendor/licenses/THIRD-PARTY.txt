@@ -1,0 +1,15 @@
+YTDownloader ใช้ซอฟต์แวร์โอเพนซอร์สต่อไปนี้ / This app bundles the following open-source software:
+
+yt-dlp — The Unlicense (public domain)
+  https://github.com/yt-dlp/yt-dlp
+  อัปเดตตัวเองอัตโนมัติทุกครั้งที่เปิดโปรแกรม (yt-dlp -U)
+
+FFmpeg (ffmpeg.exe, ffprobe.exe) — GNU GPL v3, ดู FFmpeg-LICENSE.txt
+  Build: gyan.dev "ffmpeg-8.1.1-full_build" (static)
+  Binary: https://www.gyan.dev/ffmpeg/builds/
+  Source code (FFmpeg): https://github.com/FFmpeg/FFmpeg
+  Build configuration and library sources: https://www.gyan.dev/ffmpeg/builds/ (ดูรายชื่อ library ได้จาก ffmpeg -version)
+
+IBM Plex Sans Thai Looped — SIL Open Font License 1.1, ดู IBM-Plex-OFL.txt
+
+Electron — MIT License, https://github.com/electron/electron

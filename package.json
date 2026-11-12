@@ -1,0 +1,53 @@
+{
+  "name": "ytdownloader",
+  "version": "1.0.0",
+  "description": "ดาวน์โหลด MP3 / MP4 ด้วย yt-dlp",
+  "main": "main.js",
+  "private": true,
+  "author": "YTDownloader",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win nsis --x64"
+  },
+  "devDependencies": {
+    "electron": "44.11.1",
+    "electron-builder": "^26.18.0"
+  },
+  "build": {
+    "appId": "local.ytdownloader",
+    "productName": "YTDownloader",
+    "copyright": "",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer.js",
+      "index.html",
+      "style.css",
+      "icon.ico",
+      "icon.png",
+      "fonts/**"
+    ],
+    "extraResources": [
+      {
+        "from": "vendor",
+        "to": "bin"
+      }
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "YTDownloader",
+      "runAfterFinish": true,
+      "artifactName": "YTDownloader-Setup.${ext}"
+    }
+  }
+}

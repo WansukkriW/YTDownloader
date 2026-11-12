@@ -1,0 +1,6 @@
+node_modules/
+dist/
+Downloads/
+# bundled tools are too big for git (ffmpeg > 100 MB); they ship inside the Setup.exe release
+vendor/*.exe
+vendor/*.dll
