@@ -46,3 +46,7 @@ npm start          # รันแบบทดสอบ (ใช้ yt-dlp แล�
 2. รัน `npm run dist` แล้วไฟล์จะอยู่ที่ `dist/YTDownloader-Setup.exe`
 
 </details>
+
+---
+
+พัฒนาโดย [@WansukkriW](https://github.com/WansukkriW)
